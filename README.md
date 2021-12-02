@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Chunyin Lai
+Sanne 't Hooft (vervangen door jouw naam)
 
 #### Je startniveau:
-Rood
+hier je startniveau (kies uit zwart, rood óf blauw)
 
 #### Je focus:
-Responsive
+hier je focus (kies uit responsive óf surface plane)
  
 </details>
 
@@ -36,15 +36,15 @@ Responsive
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-Discord: www.discord.com
+link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-Landingspagina van Discord 
-<img src="images/screenshot1.png" width="375px" alt="Hoofdpagina van Discord">
+hier de naam van de pagina  
+<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-Nitro pagina van Discord
-<img src="images/screenshot2.png" width="375px" alt="Nitro pagina van Discord">
+hier de naam van de pagina  
+<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -56,10 +56,10 @@ Nitro pagina van Discord
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/fed-breakdownschets.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/fed-dynamischbreakdown.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
 ### wellicht nog een dynamisch deel (bijv filter): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
@@ -76,8 +76,7 @@ Nitro pagina van Discord
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-Ik begon in het begin voornamelijk met de layout hoe de bouwstenen op elkaar liggen vanuit een mobiele viewport. Ik had alleen moeite met het maken van de navigatie menu. Voor de rest is alles gelukt met wat hulp van internet. Ik zit verder goed op schema, voor de mobiele kant in iedergeval.
-<img src="images/voorbeeld.jpg" width="375px" alt="voorbeeld van stand van zaken"> 
+hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
 ### Agenda voor meeting

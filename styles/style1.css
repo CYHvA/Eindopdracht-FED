@@ -1,0 +1,347 @@
+/*///////////////////////////////////////*/
+/*ALL*/
+/*///////////////////////////////////////*/
+
+*, *::after, *::before {
+    box-sizing:border-box;
+    margin: 0;
+}
+
+:root {
+    --main-color: #404eed;
+    --sec-color: #23272a;
+    --sec-bg-color: #f6f6f6;
+    --txt-link-color: #00b0f4;
+}
+
+body {
+    background: white;
+    width: 100%;
+    
+}
+
+main {
+    background: white;
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+    
+    text-align: center;
+    color: var(--sec-bg-color);
+}
+
+header {
+    padding: 1.5em 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg,#b473f5,#e292aa);
+}
+
+header > img {
+    width: 33%;
+}
+
+
+
+
+/*///////////////////////////////////////*/
+/*Hamburger Icon*/
+/*///////////////////////////////////////*/
+
+.hamburger {
+    display: block;
+    width: 35px;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+
+    background: none;
+    outline: none;
+    border: none;
+    appearance: none;
+    z-index: 99;
+}
+
+/*De container, middel streep, after & before streep*/
+.hamburger .bar, .hamburger::after, .hamburger::before {
+    width: 75%;
+    height: 5px;
+    background-color: #fff;
+    transition: .4s ease-in-out;
+    margin: 4px 0;
+    content:"";
+    display: block;
+}
+
+/*Eerste streep*/
+.hamburger.active::before {
+    transform: rotate(-45deg) translate(-6px, 6px);
+    background-color: var(--sec-color);
+    height: 2px;
+    width: 75%;
+}
+
+/*Laatste streep*/
+.hamburger.active::after {
+    transform: rotate(45deg) translate(-4px, -5px);
+    background-color: var(--sec-color);
+    height: 2px;
+    width: 75%;
+}
+
+/*Na het openen van de hamburger menu, verdwijnt de middelste streep*/
+.hamburger.active .bar {
+    opacity: 0;
+}
+
+
+
+
+
+/*///////////////////////////////////////*/
+/*Hamburger Menulist*/
+/*///////////////////////////////////////*/
+
+/*Menulijst*/
+.mobile {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 100%;
+    width: 75%;
+    min-height: 100vh;
+    z-index: 98;
+    background: var(--sec-bg-color);
+    padding: 1.5em;
+    padding-top: 100px;
+    transition: .2s;
+    border-radius: 8px 0 0 8px;
+    box-shadow: 0 8px 15px rgba(0,0,0,.3);
+}
+
+.mobile.open {
+    left: 25%;
+}
+
+/*Styling van de items in de menulijst*/
+.mobile > a {
+    display: block;
+    width: fit-content;
+    text-align: left;
+    margin-bottom: 16px;
+    padding: 12px 16px;
+    color: var(--sec-color);
+}
+
+/*Tijdens het openen van de menu, kan je niet scrollen*/
+body.scroll {
+    overflow: hidden;
+}
+
+/*Tijdens het openen van de menu, is er een zwarte overlay op de achtergrond*/
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  
+    background: rgba(0,0,0,.3);
+    opacity: 0;
+    transition: .2s;
+}
+
+.overlay.on {
+    opacity: 1;
+    z-index: 97;
+}
+
+
+
+/*///////////////////////////////////////*/
+/*Button*/
+/*///////////////////////////////////////*/
+section > button {
+    color: var(--sec-bg-color);
+    background: var(--sec-color);
+    font-size: 20px;
+    border-radius: 28px;
+    border: none;
+    transition: .2s ease-in-out;
+    display: flex;
+    
+    padding: 16px 32px;
+    width: 100%;
+    margin-bottom: 24px;
+    justify-content: center;
+}
+
+section > button:hover {
+    box-shadow: 0 8px 15px rgba(0,0,0,.2);
+    background: #36393f;
+}
+
+section > button:first-of-type {
+    margin-top: 40px;
+}
+
+/* Special element inside the button*/
+.pill {
+    background: var(--main-color);
+    border-radius: 24px;
+    padding: 0 8px;
+    margin-left: 10px;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+
+
+
+/*///////////////////////////////////////*/
+/*Sections*/
+/*///////////////////////////////////////*/
+
+/*Section Overall*/
+section {
+    background: white;
+    padding: 32px;
+    margin: 0 24px;
+    border-radius: 8px;
+}
+
+section > img {
+    margin-top: 1em;
+    height: 116px;
+    width: 177px;
+}
+
+/*Section 1 Hero Image*/
+section:first-of-type img:first-of-type {
+    position:absolute;
+    width: 250px;
+    height: auto;
+    left: 50%;
+    display: block;
+    transform:translateX(12px);
+    margin-top: 0;
+}
+
+section:first-of-type img:nth-of-type(2) {
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 152px;
+}
+
+section:first-of-type p {
+    margin-top: 40px;
+}
+
+/*Section 1 Frame*/
+section:first-of-type {
+    background: linear-gradient(90deg,#b473f5,#e292aa);
+    padding: 112px 24px;
+    margin: 0;
+    border-radius: 0;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/*Section 2 Titel*/
+
+section:nth-of-type(2) {
+    padding: 56px 0;
+}
+
+section:nth-of-type(2) p, h1 {
+    color: var(--sec-color);
+}
+
+section:nth-of-type(2) h1 {
+    font-size: 1.5em;
+    line-height: 95%;
+    margin-bottom: 24px;
+}
+
+/*Section 3 Perk 1*/
+section:nth-of-type(3) {
+    background: linear-gradient(142.53deg,#00a295,#26e8f4 98.75%),#3dcda7;
+}
+
+/*Section 4 Perk 2*/
+section:nth-of-type(4) {
+    background: linear-gradient(321.82deg,#21f2ff,#4181ff 59.22%,#4475ff 98.02%),#7196ff;
+}
+
+/*Section 5 Perk 3*/
+section:nth-of-type(5) {
+    background: linear-gradient(138.46deg,#3e70ff 1.48%,#9a98ff 98.75%),#ff73fa;
+}
+
+/*Section 6 Perk 4*/
+section:nth-of-type(6) {
+    background: linear-gradient(141.85deg,#7e7bff,#ff73fa);
+}
+
+/*Section 7 Perk 5*/
+section:nth-of-type(7) {
+    background: linear-gradient(141.48deg,#f837ee 1.35%,#ffcd4b);
+}
+
+/*Section 8 Perk 6*/
+section:nth-of-type(8) {
+    background: linear-gradient(321.73deg,#ffcd4b -1.09%,#ee6315 100.65%);
+}
+
+/*Section 9 Doit */
+section:nth-of-type(9) {
+    color: var(--sec-color);
+}
+
+section:nth-of-type(9) p {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+
+/*///////////////////////////////////////*/
+/*Font*/
+/*///////////////////////////////////////*/
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    line-height: 1.625em;
+    font-weight: 100;
+  }
+
+h1 {
+    font-size: 2em;
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+h2 { 
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+h1, h2 {
+    /*margin-bottom: 24px;*/
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}

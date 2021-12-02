@@ -14,8 +14,12 @@
   --main-color: #404eed;
   --sec-color: #23272a;
   --sec-bg-color: #f6f6f6;
+  --txt-link-color: #00b0f4;
 }
 
+body {
+  overflow-x: hidden;
+}
 
 
 
@@ -107,9 +111,11 @@ ul {
   box-shadow: 0 8px 15px rgba(0,0,0,.5);
 
   position: absolute;
-right: 0;
-top: 0;
+  right: -80%;
+  top: 0;
   height: 100vh;
+  width: 75%;
+  
 
   transition: .2s ease-out;
   padding-top: 2em;
@@ -117,8 +123,18 @@ top: 0;
 
 /*MENU ITEMS*/
 ul > li {
-  padding-top: 1em;
-  padding-left: 1em;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 2em;
+  width: 100%;
+}
+
+ul > li a:focus {
+  color: var(--txt-link-color);
+  background-color: var(--sec-bg-color);
+  border-radius: 25px;
+  padding: 8px 16px;
+  width: 100%;
 }
 
 /*MENU BTN*/
@@ -135,7 +151,7 @@ ul > a {
 }
 
 ul.toonMenu {
-  transform: translateX(100px);
+  transform: translateX(-100%);
 }
 
 i.toonMenu {
