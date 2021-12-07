@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Sanne 't Hooft (vervangen door jouw naam)
+Chunyin Lai
 
 #### Je startniveau:
-hier je startniveau (kies uit zwart, rood óf blauw)
+Rood
 
 #### Je focus:
-hier je focus (kies uit responsive óf surface plane)
+Responsive
  
 </details>
 
@@ -36,15 +36,15 @@ hier je focus (kies uit responsive óf surface plane)
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+Discord: www.discord.com
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Landingspagina van Discord 
+<img src="images/screenshot1.png" width="375px" alt="Hoofdpagina van Discord">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Nitro pagina van Discord
+<img src="images/screenshot2.png" width="375px" alt="Nitro pagina van Discord">
  
 </details>
 
@@ -56,10 +56,10 @@ hier de naam van de pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/fed-breakdownschets.jpg" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/fed-dynamischbreakdown.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
 ### wellicht nog een dynamisch deel (bijv filter): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
@@ -76,26 +76,24 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik begon in het begin voornamelijk met de layout hoe de bouwstenen op elkaar liggen vanuit een mobiele viewport. Ik had alleen moeite met het maken van de navigatie menu. Voor de rest is alles gelukt met wat hulp van internet. Ik zit verder goed op schema, voor de mobiele kant in iedergeval.
+<img src="images/voorbeeld.jpg" width="375px" alt="voorbeeld van stand van zaken"> 
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Juliette Groot, aantal vragen zoals: 
+- "Ik vind het lastig om te starten, ik weet niet zo goed waar ik moet beginnen."
+- "Ik snap niet veel over flexbox."
 
+Nigel Fijnheer, aantal vragen zoals:
+- "Ik heb een vraag over flexbox elementen zoals: flexgrow en wrap."
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- De studentenassistent had alle website snel gekeken hoe de progressie was van onze groepje. Hij was erg tevreden waar wij allemaal zaten en had ons hier en daar geholpen met kleine problemen waar wij mee vast zatten of vragen hadden. De studentenassistent had mij nog geholpen met de hamburgermenu die ik had gemaakt. 
 
 </details>
 
@@ -109,26 +107,15 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Ik ben begonnen met de 2e pagina, waarbij ik de layout van de Nitro pagina had gemaakt. Ik had de hele website anders gebouwd dan de eerste pagina. Nadat de les Grid methodes had uitgelegd had ik het daarmee geprobeerd. Dat is zover ook goed gelukt, beide pagina's zijn meteen gemaakt. Daarnaast heb ik de hamburger menu ook totaal anders gebouwd die misschien minder complex of verwarrend is. Daarmee ben ik nog mee bezig. 
+<img src="images/voorbeeldnitro.jpg" width="375px" alt="voorbeeld van stand van zaken"> 
 
 ### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+De agenda voor de meeting waren wij als groepje vergeten...
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Na de meeting had onze docent al onze huidige progressie in gezien en was verder ook tevreden hoe ver wij waren. De meeste van ons had al de 2e pagina en moet nog werken aan de animatie/responsiveness van een website. 
 
 </details>
 
