@@ -129,25 +129,25 @@ Na de meeting had onze docent al onze huidige progressie in gezien en was verder
 Lijst met je bevindingen die in de test naar voren kwamen:
 
 #### Kokersvisie
-<img src="images/koker.jpeg" width="375px" alt="kokers visie voorbeeld"> 
+<img src="images/koker.JPEG" width="375px" alt="kokers visie voorbeeld"> 
 
 Met de Kokersvisie test, kan je zien dat het nog wel zichtbaar is qua tekst. De tekst is groot genoeg om het te kunnen lezen ook met beperkingen. Met de Kokersvisie beperking is het minst beperkend door middel van toestel formaat. De mobiele formaat is al vrij klein, waardoor alles zichtbaar is binnen de beperkte visie. 
 
 
 #### Diabetus Screening
-<img src="images/diabetic.jpeg" width="375px" alt="diabetus screening visie voorbeeld"> 
+<img src="images/diabetic.JPEG" width="375px" alt="diabetus screening visie voorbeeld"> 
 
 Ook al is het erg lastig om de meeste elementen op scherm te kunnen zien. Toch is het duidelijk wat er als tekst staat en is de kleuren contrast ook sterk genoeg om verschillende elementen te kunnen zien. Hier moest ik wel vaker erom heen kijken via een andere hoek of moest ik mijn hoofd kantelen. Hierbij is de gebruiker iets meer in controlen dan de website zelf.
 
 
 #### Wazigheid/Beslagen ogen
-<img src="images/wazig.jpeg" width="375px" alt="wazig visie voorbeeld"> 
+<img src="images/wazig.JPEG" width="375px" alt="wazig visie voorbeeld"> 
 
 Met de wazigheids test was het vrij duidelijk dat mijn tekst met bepaalde beperkingen gewoon duidelijk is. De lettertype grote is groot genoeg en de contrast achter de tekst qua kleur is zo een groot verschil dat je het duidelijk nog kan zien. Misschien is het niet optimaal, persoonlijk zou ik zelf ook iets meer richting het scherm gaan.
 
 
 #### Verwerpt visie/Blokerig visie
-<img src="images/blokerig.jpeg" width="375px" alt="blokerig visie voorbeeld"> 
+<img src="images/blokerig.JPEG" width="375px" alt="blokerig visie voorbeeld"> 
 
 Met de blokerigheids test is erg lastig om te zien wat er staat. Ik denk dat dit alleen oplosbaar is via een specifieke extentie. Als de gebruiker bijvoorbeeld zo een beperking heeft dat er dan gebruik gemaakt wordt van text-to-speech. Hier is de huidige website niet sterk genoeg om niet een alternatieve oplossing te vinden dan alleen lettertype groter maken en andere letterkleur als voorbeeld. Ik moest persoonlijk bijna 5cm van het scherm af zitten om het te kunnen lezen. Daarnaast was het niet alleen mijn website maar ook andere websites en uberhaupt mijn laptop.
 
