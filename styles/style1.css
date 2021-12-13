@@ -17,7 +17,7 @@
 body {
     background: white;
     width: 100%;
-    
+    overflow-x: hidden;
 }
 
 main {
@@ -39,11 +39,8 @@ header {
 }
 
 header > img {
-    width: 33%;
+    max-width: 130px;
 }
-
-
-
 
 /*///////////////////////////////////////*/
 /*Hamburger Icon*/
@@ -93,6 +90,11 @@ header > img {
 /*Na het openen van de hamburger menu, verdwijnt de middelste streep*/
 .hamburger.active .bar {
     opacity: 0;
+}
+
+/*Desktop menu*/
+.desktop {
+    display: none;
 }
 
 
@@ -160,9 +162,9 @@ body.scroll {
 
 
 /*///////////////////////////////////////*/
-/*Button*/
+/*Button Hero Page*/
 /*///////////////////////////////////////*/
-section > button {
+section > .container > button {
     color: var(--sec-bg-color);
     background: var(--sec-color);
     font-size: 20px;
@@ -177,12 +179,13 @@ section > button {
     justify-content: center;
 }
 
-section > button:hover {
+section > .container > button:hover {
     box-shadow: 0 8px 15px rgba(0,0,0,.2);
     background: #36393f;
+    cursor: pointer;
 }
 
-section > button:first-of-type {
+section > .container{
     margin-top: 40px;
 }
 
@@ -199,6 +202,7 @@ section > button:first-of-type {
 
 
 
+
 /*///////////////////////////////////////*/
 /*Sections*/
 /*///////////////////////////////////////*/
@@ -207,8 +211,8 @@ section > button:first-of-type {
 section {
     background: white;
     padding: 32px;
-    margin: 0 24px;
     border-radius: 8px;
+    width: 100%;
 }
 
 section > img {
@@ -217,8 +221,8 @@ section > img {
     width: 177px;
 }
 
-/*Section 1 Hero Image*/
-section:first-of-type img:first-of-type {
+/*Hero Image*/
+.herocontainer > section:first-of-type img:first-of-type {
     position:absolute;
     width: 250px;
     height: auto;
@@ -228,7 +232,7 @@ section:first-of-type img:first-of-type {
     margin-top: 0;
 }
 
-section:first-of-type img:nth-of-type(2) {
+.herocontainer > section:first-of-type img:nth-of-type(2) {
     display: block;
     width: 300px;
     margin-left: auto;
@@ -236,12 +240,12 @@ section:first-of-type img:nth-of-type(2) {
     margin-top: 152px;
 }
 
-section:first-of-type p {
+.herocontainer > section:first-of-type p {
     margin-top: 40px;
 }
 
 /*Section 1 Frame*/
-section:first-of-type {
+.herocontainer > section:first-of-type {
     background: linear-gradient(90deg,#b473f5,#e292aa);
     padding: 112px 24px;
     margin: 0;
@@ -250,61 +254,76 @@ section:first-of-type {
     position: relative;
 }
 
+.herocontainer > section:first-of-type > video {
+    display: none;
+}
+
 /*Section 2 Titel*/
 
-section:nth-of-type(2) {
+main > section:first-of-type {
     padding: 56px 0;
 }
 
-section:nth-of-type(2) p, h1 {
+main > section:first-of-type p, h1 {
     color: var(--sec-color);
 }
 
-section:nth-of-type(2) h1 {
+main > section:first-of-type h1 {
     font-size: 1.5em;
     line-height: 95%;
     margin-bottom: 24px;
+    padding: 0 1.5em;
 }
 
-/*Section 3 Perk 1*/
-section:nth-of-type(3) {
+/*GRID CONTAINER VOOR SECTIONS*/
+.gridcontainer {
+    padding: 0 1.5em;
+}
+
+.gridcontainer > section {
+    margin-bottom: 1em;
+}
+
+/*GRID CONTAINER Perk 1*/
+.gridcontainer > section:nth-of-type(1) {
     background: linear-gradient(142.53deg,#00a295,#26e8f4 98.75%),#3dcda7;
 }
 
-/*Section 4 Perk 2*/
-section:nth-of-type(4) {
+/*GRID CONTAINER Perk 2*/
+.gridcontainer > section:nth-of-type(2) {
     background: linear-gradient(321.82deg,#21f2ff,#4181ff 59.22%,#4475ff 98.02%),#7196ff;
 }
 
-/*Section 5 Perk 3*/
-section:nth-of-type(5) {
+/*GRID CONTAINER Perk 3*/
+.gridcontainer > section:nth-of-type(3) {
     background: linear-gradient(138.46deg,#3e70ff 1.48%,#9a98ff 98.75%),#ff73fa;
 }
 
-/*Section 6 Perk 4*/
-section:nth-of-type(6) {
+/*GRID CONTAINER Perk 4*/
+.gridcontainer > section:nth-of-type(4) {
     background: linear-gradient(141.85deg,#7e7bff,#ff73fa);
 }
 
-/*Section 7 Perk 5*/
-section:nth-of-type(7) {
+/*GRID CONTAINER Perk 5*/
+.gridcontainer > section:nth-of-type(5) {
     background: linear-gradient(141.48deg,#f837ee 1.35%,#ffcd4b);
 }
 
-/*Section 8 Perk 6*/
-section:nth-of-type(8) {
+/*GRID CONTAINER Perk 6*/
+.gridcontainer > section:nth-of-type(6) {
     background: linear-gradient(321.73deg,#ffcd4b -1.09%,#ee6315 100.65%);
 }
 
-/*Section 9 Doit */
-section:nth-of-type(9) {
+/*Doit */
+main > section:nth-of-type(2) {
     color: var(--sec-color);
 }
 
-section:nth-of-type(9) p {
+main > section:nth-of-type(2) p {
     font-weight: bold;
     font-size: 1.2em;
 }
+
 
 
 
@@ -337,11 +356,182 @@ h3 {
     font-size: 2em;
 }
 
-h1, h2 {
-    /*margin-bottom: 24px;*/
-}
-
 a {
     text-decoration: none;
     font-family: 'Inter', sans-serif;
 }
+
+/*///////////////////////////////////////*/
+/*Responsive*/
+/*///////////////////////////////////////*/
+
+@media screen and (min-width: 768px) {
+
+    /*NAV*/
+    .hamburger {
+        display:none;
+    }
+
+    .bar {
+        display: none;
+    }
+
+    .desktop {
+        z-index: 1;
+        display: block;
+        margin:0 auto;
+    }
+
+    .desktop > a {
+        margin: 0 1em;
+        color: var(--sec-bg-color);
+        font-weight: bold;
+    }
+
+    .desktop > a:hover {
+        text-decoration: underline;
+    }
+
+    /*Header*/
+    header {
+        z-index: 1;
+        background: transparent;
+        position: absolute;
+        display: flex;
+
+        padding-left: 19%;
+        padding-right: 19%;
+        min-width: 100vw;
+    }
+
+    /*HERO CONTAINER*/
+    .herocontainer > section:first-of-type {
+        padding-left: 19%;
+        padding-right: 19%;
+        padding-bottom: 170px;
+
+        background: none;
+        overflow: hidden;
+        z-index: 0;
+    }
+
+    .herocontainer > section:first-of-type > video {
+        position: absolute;
+        z-index: -1;
+        left: -328px;
+        top: -206px;
+        right: 0;
+        display: block;
+    }
+
+    .herocontainer > section > .container > button:first-of-type {
+        min-width: 275px;
+        max-width: 275px;
+    }
+
+    .herocontainer > section > .container > button:nth-of-type(2) {
+        min-width: 212px;
+        max-width: 212px;
+        margin-left: 40px;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .herocontainer > section {
+        text-align: left;
+    }
+
+    .herocontainer > section:first-of-type p {
+        max-width: 580px;
+        font-size: 1.2em;
+    }
+
+    .herocontainer > section:first-of-type img:nth-of-type(1){
+        display: none;
+    }
+
+    .herocontainer > section:first-of-type img:nth-of-type(2){
+        margin-left: 0;
+        margin-top: 90px;
+    }
+
+    /*FIRST OF TYPE SECTION*/
+    main > section:first-of-type {
+        z-index: 1;
+    }
+
+    main > section:first-of-type h1 {
+        font-size: 3em;
+        text-align: center;
+        line-height: 1em;
+        margin-top: 60px;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    main > section:first-of-type p {
+        color: var(--sec-color);
+        width: 100%;
+        text-align: center;
+        margin-top: 1em;
+        margin-bottom: 70px;
+    }
+
+    /*GRID CONTAINER*/
+    .gridcontainer {
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+        column-gap: 1.3em;
+        row-gap: 1.3em;
+        
+        width: 48%;
+        margin: 0 auto;
+        z-index: 1;
+    }
+
+    .gridcontainer > section {
+        text-align: center;
+        padding: 40px 25px;
+    }
+
+    .gridcontainer > section p:first-of-type{
+        font-size: 1.2em;
+    }
+
+    /*Section 2*/
+    main > section:nth-of-type(2) p {
+        font-size: 2em;
+    }
+
+    main > section:nth-of-type(2) {
+        margin: 5em 0;
+        z-index:1;
+    }
+
+    section:nth-of-type(2) > .container > button {
+        min-width: 275px;
+        max-width: 400px;
+    }
+
+    section:nth-of-type(2) > .container > button:hover {
+        box-shadow: 0 8px 15px rgba(0,0,0,.2);
+        background: #36393f;
+        cursor: pointer;
+    }
+
+    section:nth-of-type(2) > .container {
+        justify-content: center;
+        gap: 1em;
+    }
+}
+
+/*Voor Hero Video, als scherm groter is dan 1920x1080*/
+@media screen and (min-width: 2000px) {
+    
+    .herocontainer > section:first-of-type > video {
+        left: 0;
+    }
+}
+

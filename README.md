@@ -61,9 +61,6 @@ Nitro pagina van Discord
 ### dynamisch deel (bijv menu): 
 <img src="images/fed-dynamischbreakdown.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-
 </details>
 
 
@@ -77,7 +74,7 @@ Nitro pagina van Discord
 
 ### Stand van zaken
 Ik begon in het begin voornamelijk met de layout hoe de bouwstenen op elkaar liggen vanuit een mobiele viewport. Ik had alleen moeite met het maken van de navigatie menu. Voor de rest is alles gelukt met wat hulp van internet. Ik zit verder goed op schema, voor de mobiele kant in iedergeval.
-<img src="images/voorbeeld.jpg" width="375px" alt="voorbeeld van stand van zaken"> 
+<img src="images/voorbeeld.png" width="375px" alt="voorbeeld van stand van zaken"> 
 
 
 ### Agenda voor meeting
@@ -108,7 +105,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 Ik ben begonnen met de 2e pagina, waarbij ik de layout van de Nitro pagina had gemaakt. Ik had de hele website anders gebouwd dan de eerste pagina. Nadat de les Grid methodes had uitgelegd had ik het daarmee geprobeerd. Dat is zover ook goed gelukt, beide pagina's zijn meteen gemaakt. Daarnaast heb ik de hamburger menu ook totaal anders gebouwd die misschien minder complex of verwarrend is. Daarmee ben ik nog mee bezig. 
-<img src="images/voorbeeldnitro.jpg" width="375px" alt="voorbeeld van stand van zaken"> 
+<img src="images/voorbeeldnitro.png" width="375px" alt="voorbeeld van stand van zaken"> 
 
 ### Agenda voor meeting
 De agenda voor de meeting waren wij als groepje vergeten...
@@ -131,25 +128,25 @@ Na de meeting had onze docent al onze huidige progressie in gezien en was verder
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
+#### Kokersvisie
+<img src="images/koker.jpg" width="375px" alt="kokers visie voorbeeld"> 
+
+Met de Kokersvisie test, kan je zien dat het nog wel zichtbaar is qua tekst. De tekst is groot genoeg om het te kunnen lezen ook met beperkingen. Met de Kokersvisie beperking is het minst beperkend door middel van toestel formaat. De mobiele formaat is al vrij klein, waardoor alles zichtbaar is binnen de beperkte visie. 
+
+
+#### Diabetus Screening
 Hier korte omschrijving (met indien nodig een afbeelding)
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 
-#### Titel tweede bevinding. 
+#### Wazigheid/Beslagen ogen
 Hier korte omschrijving (met indien nodig een afbeelding)
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
+#### Verwerpt visie/Blokerig visie
 Hier korte omschrijving (met indien nodig een afbeelding)
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
