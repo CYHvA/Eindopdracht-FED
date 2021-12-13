@@ -128,6 +128,11 @@ Na de meeting had onze docent al onze huidige progressie in gezien en was verder
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
+### Parkingson/Spasme
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YWkgYMA-R5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Je kan duidelijk zien in deze video dat het best wel moeilijk is om bepaalde handelingen te doen. Er waren aantal handelingen dat niet de bedoeling was en ook wel met moeit ging. 
+
 #### Kokersvisie
 <img src="images/koker.JPEG" width="375px" alt="kokers visie voorbeeld"> 
 
