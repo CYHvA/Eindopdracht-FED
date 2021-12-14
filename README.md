@@ -205,7 +205,7 @@ De studentenassistant ging even snel door mijn website heen, was verder echt tev
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-Over het algemeen ging alles wel goed, alleen was het handiger geweest zijn als ik in het begin al vast algemene regels kon aanhouden. Ook beter een breakdown van de website was ook erg handig geweest zijn, zeker omdat er bepaalde lagen met div's aangemaakt zijn voor de styling. Die ik later moest toevoegen handmatig en alle posities/selectors opschoven naar een andere regel. Maar verder ben ik wel erg tevreden met de website, het is voor mijn gevoel een 90% replica van de oorspronkelijke website. 
+Over het algemeen ging alles wel goed, alleen was het handiger geweest zijn als ik in het begin al vast algemene regels kon aanhouden. Ook beter een breakdown van de website was ook erg handig geweest zijn, zeker omdat er bepaalde lagen met div's aangemaakt zijn voor de styling. Die ik later moest toevoegen handmatig en alle posities/selectors opschoven naar een andere regel. Maar verder ben ik wel erg tevreden met de website, het is voor mijn gevoel een 90% replica van de oorspronkelijke website. Helaas lukte het mij niet om kleine detail problemen af te werken en sommige methodes anders te maken in verband met de deadline.
 
 ### Screenshot(s)
 
