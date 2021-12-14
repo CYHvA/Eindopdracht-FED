@@ -210,10 +210,10 @@ Over het algemeen ging alles wel goed, alleen was het handiger geweest zijn als 
 ### Screenshot(s)
 
 hier screenshot(s) van je eindresultaat
-<img src="images/indexdesktop.jpg" width="375px" alt="voorbeeld van index pagina"> 
-<img src="images/indexmobiel.jpg" width="375px" alt="voorbeeld van responsive index pagina"> 
-<img src="images/nitrodesktop.jpg" width="375px" alt="voorbeeld van nitro pagina"> 
-<img src="images/nitromobiel.jpg" width="375px" alt="voorbeeld van responsive nitro pagina"> 
+<img src="images/indexdesktop.png" width="375px" alt="voorbeeld van index pagina"> 
+<img src="images/indexmobiel.png" width="375px" alt="voorbeeld van responsive index pagina"> 
+<img src="images/nitrodesktop.png" width="375px" alt="voorbeeld van nitro pagina"> 
+<img src="images/nitromobiel.png" width="375px" alt="voorbeeld van responsive nitro pagina"> 
 
 </details>
 
