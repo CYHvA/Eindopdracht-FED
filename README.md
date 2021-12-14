@@ -128,10 +128,11 @@ Na de meeting had onze docent al onze huidige progressie in gezien en was verder
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-### Parkingson/Spasme
+### Parkingson/Spasme (KLIK OP DE FOTO VOOR VIDEO)
 <a href="https://youtu.be/YWkgYMA-R5M
 " target="_blank"><img src="https://scientias.nl/wp-content/uploads/2019/01/Parkinson.jpg" 
 alt="video van parkingson of spasme" width="240" height="180" border="10" /></a>
+
 
 Je kan duidelijk zien in deze video dat het best wel moeilijk is om bepaalde handelingen te doen. Er waren aantal handelingen dat niet de bedoeling was en ook wel met moeit ging. 
 
@@ -170,26 +171,27 @@ Met de blokerigheids test is erg lastig om te zien wat er staat. Ik denk dat dit
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik ben nu klaar met beide websites in de mobiele formaat. Nu hard bezig met het maken van een desktop versie van beide websites. Ik had voornamelijk moeite met werken van verschillende lagen. Sinds de website best eenvoudig lijkt, is de frame best complex waarbij ik DIV en classes moest gebruiken voor de "replica" effect. Daarnaast heb ik 2 verschillende stylesheets gebruikt omdat ik de eerste website via een flexbox heb gemaakt en de tweede website via een grid systeem. Voor de volgende website project is het handiger om alvast de algemene regels vast te zetten die voor beide toestellen geldig zijn zoals, letterkleur of lettertypes. Omdat ik specifieke attributes had gebruikt moest ik dingen veranderen aan de mobiele versie zodat de desktop versie ook werkte.
+<img src="images/Responsive1.jpg" width="375px" alt="voorbeeld van Responsive foto 1"> 
+<img src="images/Responsive2.jpg" width="375px" alt="voorbeeld van Responsive foto 2"> 
+<img src="images/Responsive3.jpg" width="375px" alt="voorbeeld van Responsive foto 3"> 
+<img src="images/Responsive4.jpg" width="375px" alt="voorbeeld van Responsive foto 4"> 
 
 
 ### Agenda voor meeting
-samen met je groepje opstellen
+Juliette Groot, aantal vragen zoals: 
+- Had vragen over specifieke problemen die ze moest oplossen voor haar eigen project. Margins links en rechts dat niet voor alle attributes gelden.
+- Nog een vraag over responsiveness.
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Nigel Fijnheer, aantal vragen zoals:
+- Had een probleem met toegankelijkheidstest dat de menu items niet overgeslagen kunnen worden via de TAB knop, waardoor de gebruiker elke keer langs alle items moest gaan.
+
+Chelsey Hooghart, aantal vragen zoals:
+- Ze was er niet aan toe gekomen omdat haar laptop niet tot beschikking was.
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+De studentenassistant ging even snel door mijn website heen, was verder echt tevreden en had kleine dingen aangekaart waarmee ik rekening moest houden zoals: bepaalde margins en overflows waar ik problemen mee had. 
 
 </details>
 
@@ -203,11 +205,15 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Over het algemeen ging alles wel goed, alleen was het handiger geweest zijn als ik in het begin al vast algemene regels kon aanhouden. Ook beter een breakdown van de website was ook erg handig geweest zijn, zeker omdat er bepaalde lagen met div's aangemaakt zijn voor de styling. Die ik later moest toevoegen handmatig en alle posities/selectors opschoven naar een andere regel. Maar verder ben ik wel erg tevreden met de website, het is voor mijn gevoel een 90% replica van de oorspronkelijke website. 
 
 ### Screenshot(s)
 
 hier screenshot(s) van je eindresultaat
+<img src="images/indexdesktop.jpg" width="375px" alt="voorbeeld van index pagina"> 
+<img src="images/indexmobiel.jpg" width="375px" alt="voorbeeld van responsive index pagina"> 
+<img src="images/nitrodesktop.jpg" width="375px" alt="voorbeeld van nitro pagina"> 
+<img src="images/nitromobiel.jpg" width="375px" alt="voorbeeld van responsive nitro pagina"> 
 
 </details>
 
@@ -222,8 +228,9 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://www.w3schools.com/
+2. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+3. https://css-tricks.com/snippets/css/complete-guide-grid/
+4. https://www.youtube.com/watch?v=dIyVTjJAkLw
 
 </details>

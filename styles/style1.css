@@ -164,7 +164,7 @@ body.scroll {
 /*///////////////////////////////////////*/
 /*Button Hero Page*/
 /*///////////////////////////////////////*/
-section > .container > button {
+section > .container > a > button {
     color: var(--sec-bg-color);
     background: var(--sec-color);
     font-size: 20px;
@@ -179,7 +179,7 @@ section > .container > button {
     justify-content: center;
 }
 
-section > .container > button:hover {
+section > .container > a > button:hover {
     box-shadow: 0 8px 15px rgba(0,0,0,.2);
     background: #36393f;
     cursor: pointer;
@@ -187,6 +187,7 @@ section > .container > button:hover {
 
 section > .container{
     margin-top: 40px;
+    gap: 1em;
 }
 
 /* Special element inside the button*/
@@ -424,12 +425,12 @@ a {
         display: block;
     }
 
-    .herocontainer > section > .container > button:first-of-type {
+    .herocontainer > section > .container > a > button:first-of-type {
         min-width: 275px;
         max-width: 275px;
     }
 
-    .herocontainer > section > .container > button:nth-of-type(2) {
+    .herocontainer > section > .container > a > button:nth-of-type(2) {
         min-width: 212px;
         max-width: 212px;
         margin-left: 40px;
@@ -510,12 +511,12 @@ a {
         z-index:1;
     }
 
-    section:nth-of-type(2) > .container > button {
+    section:nth-of-type(2) > .container > a >button {
         min-width: 275px;
         max-width: 400px;
     }
 
-    section:nth-of-type(2) > .container > button:hover {
+    section:nth-of-type(2) > .container > a > button:hover {
         box-shadow: 0 8px 15px rgba(0,0,0,.2);
         background: #36393f;
         cursor: pointer;
